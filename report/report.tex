@@ -1,0 +1,92 @@
+\documentclass[uplatex,a4paper,12pt]{jsarticle}
+
+%% フォント
+%\usepackage{newtxtext,newtxmath}
+%% 図、文字色
+\usepackage[dvipdfmx]{graphicx,xcolor}
+%% ハイパーリンク
+\usepackage[dvipdfmx]{hyperref}
+%% しおりの日本語
+\usepackage{pxjahyper}
+%% しおりに節番号を含める、リンクの枠を出力しない
+\hypersetup{
+  bookmarksnumbered=true,
+  hidelinks=true,
+  colorlinks=false,
+}
+%% 特殊記号
+\usepackage{textcomp}
+%% URL
+\usepackage{url}
+%% 表
+%\usepackage{multirow}
+%% 参照漏れチェック
+%\usepackage{refcheck}
+
+%図と表の表記
+%\renewcommand{\figurename}{Fig.}
+%\renewcommand{\tablename}{Table.}
+
+\usepackage[top=30truemm,bottom=30truemm,left=30truemm,right=30truemm]{geometry}
+
+\begin{document}
+
+% 表紙
+\begin{picture}(420,520)(-20,20)
+%契約番号（必須）
+\put(330,470){\makebox(50,5)[l]{\normalsize{2023情財第 XXX 号}}} %「XXX」はプロジェクトごとの番号に置き換える
+%事業名（必須）
+\put(140,350){\makebox(100,15)[c]{\LARGE{2023年度未踏IT人材発掘・育成事業}}}
+%プロジェクト名
+\put(140,320){\makebox(100,15)[c]{\LARGE{ぬいぐるみ専用の組み込みAIモジュールの開発}}}
+% \put(140,290){\makebox(100,15)[c]{\LARGE{契約名2行目（必要なら）}}}
+\put(140,260){\makebox(100,15)[c]{\LARGE{成果報告書}}} %2行目がなければ\put(140,290)
+%クリエータ名1（必須、人数に応じて\putの位置を調整）
+\put(140,140){\makebox(100,10)[c]{\Large{クリエータ：小山 高}}}
+%クリエータ名2（必須、人数に応じて\putの位置を調整）
+% \put(140,110){\makebox(100,10)[c]{\Large{　　　　　　姓 名}}}
+% 担当PM名（クリエータ2がいなければ\put(140,100)
+\put(140,70){\makebox(100,10)[c]{\Large{担当PM：稲見 昌彦}}}
+%日付（必須、通常は契約最終日、クリエータ2がいなければ\put(140,60)
+\put(140,30){\makebox(100,15)[c]{\Large{2024年3月8日}}}
+\end{picture}
+\thispagestyle{empty}
+\clearpage
+
+\tableofcontents
+\thispagestyle{empty}
+\clearpage
+
+% 本文
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\section{要約}
+
+\section{背景及び目的}
+
+\section{プロジェクト概要}
+
+\section{開発内容}
+
+\section{開発成果の特徴}
+
+\section{今後の課題、展望}
+
+\section{実施計画書内容との相違点}
+
+\section{開発分担}
+
+\section{成長の自己分析}
+
+\section{秘匿ノウハウの指定}
+
+\section{その他}
+
+\section{付録}
+
+\subsection{用語説明}
+
+\subsection{関連Webサイト}
+
+\end{document}

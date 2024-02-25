@@ -1,0 +1,105 @@
+\documentclass[uplatex,a4paper,12pt]{jsarticle}
+
+%% フォント
+%\usepackage{newtxtext,newtxmath}
+%% 図、文字色
+\usepackage[dvipdfmx]{graphicx,xcolor}
+%% ハイパーリンク
+\usepackage[dvipdfmx]{hyperref}
+%% しおりの日本語
+\usepackage{pxjahyper}
+%% しおりに節番号を含める、リンクの枠を出力しない
+\hypersetup{
+  bookmarksnumbered=true,
+  hidelinks=true,
+  colorlinks=false,
+}
+%% 特殊記号
+\usepackage{textcomp}
+%% URL
+\usepackage{url}
+%% 表
+%\usepackage{multirow}
+%% 参照漏れチェック（デバッグ用）
+%\usepackage{refcheck}
+
+% キャプションとページ番号をゴシック体に
+\renewcommand{\kanjifamilydefault}{\gtdefault}
+\usepackage{caption}
+\usepackage{fancyhdr,lastpage}
+\fancypagestyle{foot}
+{
+  \lhead{}
+  \chead{}
+  \rhead{}
+  \cfoot{{\sf \thepage{}/{}\pageref{LastPage}}}
+  \renewcommand{\headrulewidth}{0.0pt}
+}
+
+\usepackage[top=30truemm,bottom=30truemm,left=30truemm,right=30truemm]{geometry}
+\usepackage{here}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\fancypagestyle{mypagestyle}{%
+\lhead{}%ヘッダ左を空に
+\rhead{}%ヘッダ右を空に
+\cfoot{\thepage/\pageref{LastPage}}%フッタ中央に"今のページ数/総ページ数"を設定
+\renewcommand{\headrulewidth}{0.0pt}%ヘッダの線を消す
+}
+\pagestyle{mypagestyle}
+\begin{document}
+
+% http://www.latex-cmd.com/style/style.html
+% \gt % ゴシック体
+% \sf % サンセリフ体
+\gtfamily\sffamily
+
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{\z@}{1.5\Cvs \@plus.5\Cvs \@minus.2\Cvs}{.5\Cvs \@plus.3\Cvs}{\reset@font\bfseries\gtfamily\sffamily}}
+\makeatother
+\captionsetup[figure]{font=sf}
+\pagestyle{foot}
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% タイトルとサブタイトル（ad-hoc）
+%% maketitleでタイトルを入れたければ、プリアンブルを調整して同じ様に表示されるようにしてください。
+\begin{center}
+\fontsize{14pt}{0pt}\selectfont
+ぬいぐるみ専用の組み込みAIモジュールの開発\\
+% - サブタイトル - 
+\end{center}
+    
+
+\section{背景}
+
+\section{目的}
+
+\section{開発の内容}
+
+\section{従来の技術との相違}
+
+\section{期待される効果}
+
+\section{普及の見通し}
+%\section{活用の見通し}
+% テンプレートでは「普及（または活用）の見通し」になっていますが、どちらか、あるいは両方を選んで記述をして、見出しをそれに合わせてください。
+% 目安です。
+% 「普及の見通し」→ユーザ獲得が先にある場合
+% 「活用の見通し」→秘匿性が高く自分自身で活用（例えば起業）することが先にある場合
+% 「普及・活用の見通し」→両方
+
+\section{小山 高（東京大学大学院 情報理工学系研究科 知能機械情報学専攻 修士２年）}
+\begin{itemize}
+  \item Aさんの氏名（A）
+\end{itemize}
+
+\section*{（参考）関連URL} % もしあれば
+% 関連URLは参考文献のリンクではなくプロジェクト・プロダクトに直接関係するものへのリンクです。成果詳細では参考文献を貼るのはなしです。
+\begin{itemize}
+  \item ティザーサイト：\url{https://pages.github.com/}
+  \item ソースコード：\url{https://github.com/}
+\end{itemize}
+
+\end{document}
