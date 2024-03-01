@@ -1,4 +1,5 @@
 \documentclass[uplatex,a4paper,12pt]{jsarticle}
+% \documentclass[uplatex,a4paper,12pt,draft]{jsarticle}
 
 %% フォント
 %\usepackage{newtxtext,newtxmath}
@@ -23,9 +24,13 @@
 %% 参照漏れチェック
 %\usepackage{refcheck}
 
-%図と表の表記
-%\renewcommand{\figurename}{Fig.}
-%\renewcommand{\tablename}{Table.}
+\usepackage{subcaption}
+
+% 図と表の表記
+\renewcommand{\figurename}{Fig.}
+\renewcommand{\tablename}{Table.}
+\newcommand{\figref}[1]{\figurename~\ref{#1}}
+\newcommand{\tabref}[1]{\tablename~\ref{#1}}
 
 \usepackage[top=30truemm,bottom=30truemm,left=30truemm,right=30truemm]{geometry}
 
@@ -81,13 +86,65 @@
 
 \subsection{愛玩用ロボット}
 ペットと似て、愛玩用ロボットも多数存在する。
-例えば、ソニー株式会社のaibo、大和リースのPARO
 
-一方で、moflin、Qoobo、pechatといった廉価なロボットも存在する。
+例えば、犬のような外見をした家庭用ロボットaibo~\cite{web_aibo}、アザラシのような介護現場でも用いられるロボットのパロ~\cite{web_paro}、車輪で駆動する家庭用ロボットLOVOT~\cite{web_lovot}などが存在する（\figref{fig:previous_robots_expensive}）。
+これらはセンサを多用することでユーザの振る舞いに呼応する機能が埋め込まれており、30万円～50万円で販売されている。
+
+一方で、手のひらサイズのロボットMoflin~\cite{web_moflin}や可動式の尻尾付きのQoobo~\cite{web_qoobo}、ぬいぐるみに縫い付けて使用するボタン型スピーカーpechat~\cite{web_pechat}（※2024年2月で販売終了）といった5万円以下の比較的安価な愛玩用ロボットも存在する（\figref{fig:previous_robots_inexpensive}）。
+これらは機能や用途を限定しつつもユーザに安らぎや楽しみをもたらすことを目指している。
 
 しかし、これらロボットはまだ市場に出回っておらず、人々認知度も低い。
 さらに、工業製品であるがゆえに同型のロボットは多少の色違いこそあれ、基本的にはすべて同じ形である。
 これでは、愛玩の対象として重要な、自分の目の前の相手がこの世にただ一人しかいないことから来る愛着、つまりオンリーワンの要素に乏しい。
+
+
+\begin{figure}[htbp]
+  \centering
+  \begin{minipage}[c]{0.32\linewidth}
+    \centering
+    \includegraphics[keepaspectratio,width=4cm,clip]{images/previous_robots/aibo.jpg}
+    \subcaption{aibo~\cite{web_aibo}}
+    \label{fig:aibo}
+  \end{minipage}
+  \begin{minipage}[c]{0.32\linewidth}
+    \centering
+    \includegraphics[keepaspectratio,width=4cm,clip]{images/previous_robots/paro.png}
+    \subcaption{パロ~\cite{web_paro}}
+    \label{fig:paro}
+  \end{minipage}
+  \begin{minipage}[c]{0.32\linewidth}
+    \centering
+    \includegraphics[keepaspectratio,width=4cm,clip]{images/previous_robots/lovot.png}
+    \subcaption{LOVOT~\cite{web_lovot}}
+    \label{fig:lovot}
+  \end{minipage}
+  \caption{愛玩用ロボットの例（高価格帯）}
+  \label{fig:previous_robots_expensive}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \begin{minipage}[c]{0.32\linewidth}
+    \centering
+    \includegraphics[keepaspectratio,width=4cm,clip]{images/previous_robots/moflin.jpg}
+    \subcaption{aibo~\cite{web_moflin}}
+    \label{fig:moflin}
+  \end{minipage}
+  \begin{minipage}[c]{0.32\linewidth}
+    \centering
+    \includegraphics[keepaspectratio,width=4cm,clip]{images/previous_robots/qoobo.png}
+    \subcaption{パロ~\cite{web_qoobo}}
+    \label{fig:qoobo}
+  \end{minipage}
+  \begin{minipage}[c]{0.32\linewidth}
+    \centering
+    \includegraphics[keepaspectratio,width=4cm,clip]{images/previous_robots/pechat.jpg}
+    \subcaption{LOVOT~\cite{web_pechat}}
+    \label{fig:pechat}
+  \end{minipage}
+  \caption{愛玩用ロボットの例（低価格帯）}
+  \label{fig:previous_robots_inexpensive}
+\end{figure}
 
 
 \subsection{ぬいぐるみの特徴}
@@ -123,6 +180,10 @@
 
 
 \section{プロジェクト概要}
+本プロジェクトではぬいぐるみ専用の組み込みAIモジュールを開発し、あらゆる種類のぬいぐるみにロボティクスを適用する。
+そして、幅広いぬいぐるみに効率的に知能を埋め込むためのプラットフォームの構築を目指す。
+
+本プロジェクトでは、ぬいぐるみのロボット化に特化した組み込みAIモジュールを開発し、ぬいぐるみの骨格の規格化を目指す。そして、ぬいぐるみの毛皮と骨格の開発過程を分離することで、幅広いぬいぐるみに効率的に知能を埋め込むための土台を築き上げる。
 
 \section{開発内容}
 \subsection{骨格MohuCoreの開発}
@@ -134,6 +195,15 @@
 \section{開発成果の特徴}
 
 \section{今後の課題、展望}
+本プロジェクトではシステムの簡素化及び省電力化を意図し、ロボットをESP32という比較的計算能力の低いマイクロコントローラを用いて設計した。
+しかし、機械学習のスタンドアロンな実装やクラウドサービス等の連携を踏まえると、Linuxといった高機能なOSを搭載可能なシングルボードコンピュータを用いた方が発展性に富む。
+
+本プロジェクト後半では、Raspberry Pi Zero 2Wという組み込み開発向けLinuxボードを使用し、計算能力を大幅に向上させた改良型も製作した（図）。
+この改良型では、サーボモータについても電流制御等が可能で動きも滑らかな高性能なものを搭載し、ぬいぐるみロボットとしての抱き心地を改善している。
+
+今後、ROS2といった汎用的なロボット開発フレームワークにプログラムコードを移植し、カメラや機械学習、クラウドなどとの連携が容易になる土台を整えてから、ぬいぐるみロボットのさらなる機能強化を進めたいと考えている。
+
+展望としては、ぬいぐるみ
 
 
 \section{実施計画書内容との相違点}
@@ -167,19 +237,54 @@
 \section{付録}
 
 \subsection{用語説明}
-\subsubsection{Mohutics (もふてぃくす)}
+\subsubsection*{Mohutics (もふてぃくす) \label{term:mohutics}}
 本プロジェクトで提案されたぬいぐるみロボットシステム及びそのシステムを採用したぬいぐるみロボットを指す。
-\subsubsection{MohuCore （もふこあ）}
+
+\subsubsection*{MohuCore （もふこあ）\label{term:mohucore}}
 本プロジェクトで提案されたぬいぐるみロボットシステムMohuticsにおいて、電気的・機械的要素を含むぬいぐるみロボットの骨格部分を指す。
-\subsubsection{MohuKawa （もふかわ）}
+\subsubsection*{MohuKawa （もふかわ）\label{term:mohukawa}}
 本プロジェクトで提案されたぬいぐるみロボットシステムMohuticsにおいて、換装可能なぬいぐるみ部分を指す。
-\subsubsection{MohuAI （もふあい）}
+\subsubsection*{MohuAI （もふあい）\label{term:mohuai}}
 本プロジェクトで提案されたぬいぐるみロボットシステムMohuticsにおいて、ぬいぐるみロボットに埋め込まれるソフトウェア部分を指す。
 
-\subsubsection{ESP32}
+\subsubsection*{ESP32 \label{term:esp32}}
 Espressif Systems社から発売されている32bitマイクロコントローラの製品群。
 Wi-FiやBluetoothの搭載を特徴とし、特にESP32シリーズのマイクロコントローラを搭載したモジュールESP32-DevkitCはIoT開発を中心に広く用いられている。
 
+\subsubsection*{IoT (Internet of Things) \label{term:iot}}
+家電や車、電子機器等の様々なものがインターネットに接続され、相互に情報交換する仕組み。
+本プロジェクトのぬいぐるみロボットがIoT端末として機能する場合、自宅に置いたぬいぐるみロボットをインターネット空間を経由して遠隔から操作することなどが想定される。
+
+\subsubsection*{Linux \label{term:linux}}
+コンピュータのOS(オペレーティングシステム)の一種。
+オープンソースで開発されており、用途に合わせてUbuntuやDebian、Raspberry Pi OSといった様々な派生形（ディストリビューション）が存在する。
+
+
+\subsubsection*{シングルボードコンピュータ \label{term:sbc}}
+手のひら程度の大きさの1枚の基板にコンピュータとして必要なほぼすべての機能や要素を実装したもの。
+Raspberry Pi等が知られている。
+
+\subsubsection*{Raspberry Pi \label{term:raspi}}
+Raspberry Pi財団によって開発されているARMプロセッサを搭載したシングルボードコンピュータ。
+OSとしてLinuxベースのUbuntu等が使用可能な一方で、ハードウェア制御に便利な外部入出力端子を備えており、主にロボットやIoT等の組み込み用途の開発で用いられている。
+
+\subsubsection*{ROS2 (Robot Operating System 2) \label{term:ros2}}
+オープンソースのロボット用のソフトウェアプラットフォーム。
+ロボットを構成するセンサやアクチュエータといった要素（ノード）同士のメッセージ通信やプログラムのパッケージ管理等を簡潔に行える。
+
 \subsection{関連Webサイト}
+\begin{description}
+  \item[X: \url{https://twitter.com/mohutics}]\mbox{}\\
+  プロジェクトの進捗をXのアカウントに随時掲載予定である。
+  \item[GitHub: \url{https://github.com/mohutics}]\mbox{}\\
+  今後ソースコードやロボットの設計図を公開する際は、このGitHubのアカウントに公開用リポジトリを掲載する予定である。
+\end{description}
+
+
+
+
+
+\bibliography{references}
+\bibliographystyle{junsrt}
 
 \end{document}
