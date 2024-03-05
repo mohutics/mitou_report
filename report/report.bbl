@@ -1,5 +1,15 @@
 \begin{thebibliography}{1}
 
+\bibitem{web_pet}
+経済産業省によるコロナ禍におけるペットブームの調査.
+\newblock \url{https://www.meti.go.jp/statistics/toppage/report/minikaisetsu/hitokoto_kako/20230804hitokoto.html}.
+\newblock (2024年3月1日閲覧).
+
+\bibitem{web_petfood}
+一般社団法人ペットフード協会によ令和5年る全国犬猫飼育実態調査.
+\newblock \url{https://petfood.or.jp/data/chart2023/index.html}.
+\newblock (2024年3月1日閲覧).
+
 \bibitem{web_aibo}
 aibo.
 \newblock \url{https://aibo.sony.jp/}.

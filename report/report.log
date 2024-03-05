@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2024.2.21)  1 MAR 2024 20:24
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2024.2.21)  6 MAR 2024 07:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -380,37 +380,71 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 File: images/previous_robots/aibo.jpg Graphic file (type bmp)
 <images/previous_robots/aibo.jpg>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 106.
+(Font)              scaled to size 8.32214pt on input line 113.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 106.
+(Font)              scaled to size 8.32214pt on input line 113.
 File: images/previous_robots/paro.png Graphic file (type bmp)
 <images/previous_robots/paro.png>
 File: images/previous_robots/lovot.png Graphic file (type bmp)
 <images/previous_robots/lovot.png>
-File: images/previous_robots/moflin.jpg Graphic file (type bmp)
-<images/previous_robots/moflin.jpg>
+ [1
+
+]
+File: images/previous_robots/moflin.png Graphic file (type bmp)
+<images/previous_robots/moflin.png>
 File: images/previous_robots/qoobo.png Graphic file (type bmp)
 <images/previous_robots/qoobo.png>
 File: images/previous_robots/pechat.jpg Graphic file (type bmp)
 <images/previous_robots/pechat.jpg>
- [1
-
-] [2] [3] [4] (./report.bbl) [5] (./report.aux)
+ [2]
+File: images/backgrounds/zoo.jpg Graphic file (type bmp)
+<images/backgrounds/zoo.jpg>
+File: images/mohutics/concept.png Graphic file (type bmp)
+<images/mohutics/concept.png>
+ [3]
+File: images/mohutics/concept_dog.png Graphic file (type bmp)
+<images/mohutics/concept_dog.png>
+File: images/mohutics/concept_bear.png Graphic file (type bmp)
+<images/mohutics/concept_bear.png>
+File: images/dog_toy/dog.jpg Graphic file (type bmp)
+<images/dog_toy/dog.jpg>
+File: images/dog_toy/skeleton.jpg Graphic file (type bmp)
+<images/dog_toy/skeleton.jpg>
+ [4]
+File: images/mohucore/skeleton.jpg Graphic file (type bmp)
+<images/mohucore/skeleton.jpg>
+ [5]
+File: images/mohukawa/saw_01.jpg Graphic file (type bmp)
+<images/mohukawa/saw_01.jpg>
+File: images/mohukawa/saw_02.jpg Graphic file (type bmp)
+<images/mohukawa/saw_02.jpg>
+File: images/mohukawa/saw_03.jpg Graphic file (type bmp)
+<images/mohukawa/saw_03.jpg>
+File: images/mohukawa/saw_04.jpg Graphic file (type bmp)
+<images/mohukawa/saw_04.jpg>
+File: images/mohukawa/joint_01.jpg Graphic file (type bmp)
+<images/mohukawa/joint_01.jpg>
+File: images/mohukawa/joint_02.jpg Graphic file (type bmp)
+<images/mohukawa/joint_02.jpg>
+ [6]
+File: images/prototype/prototype_04.jpg Graphic file (type bmp)
+<images/prototype/prototype_04.jpg>
+ [7] [8] [9] (./report.bbl) [10] (./report.aux)
  ***********
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-18>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 0D9808B700D752746C6BA0C8C941D02B;2697.
+(rerunfilecheck)             Checksum: 2DB50E2FF17FEA0A96D9DF13AE9C5111;2994.
  ) 
 Here is how much of TeX's memory you used:
- 11172 strings out of 474801
- 178512 string characters out of 5763005
- 1927839 words of memory out of 5000000
- 33396 multiletter control sequences out of 15000+600000
+ 11285 strings out of 474801
+ 181862 string characters out of 5763005
+ 1929839 words of memory out of 5000000
+ 33484 multiletter control sequences out of 15000+600000
  597123 words of font info for 85 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 72i,7n,79p,478b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,8n,79p,478b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.dvi (7 pages, 41852 bytes).
+Output written on report.dvi (12 pages, 69124 bytes).
