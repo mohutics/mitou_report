@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2024.2.21)  6 MAR 2024 20:19
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2024.2.21)  6 MAR 2024 20:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -521,4 +521,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  72i,8n,79p,950b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.dvi (21 pages, 113572 bytes).
+Output written on report.dvi (21 pages, 113560 bytes).
