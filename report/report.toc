@@ -19,11 +19,10 @@
 \contentsline {section}{\numberline {5}開発成果の特徴}{14}{section.5}%
 \contentsline {section}{\numberline {6}今後の課題、展望}{14}{section.6}%
 \contentsline {section}{\numberline {7}実施計画書内容との相違点}{16}{section.7}%
-\contentsline {subsection}{\numberline {7.1}ユーザ評価とぬいぐるみロボットとしてのAIに対する筆者自身の考え}{16}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.1}ユーザ評価とぬいぐるみロボットとしてのAIに対する小山自身の考え}{16}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}ハードウェアの仕様変更}{16}{subsection.7.2}%
 \contentsline {section}{\numberline {8}成長の自己分析}{16}{section.8}%
-\contentsline {section}{\numberline {9}秘匿ノウハウの指定}{17}{section.9}%
-\contentsline {section}{\numberline {10}その他}{17}{section.10}%
-\contentsline {section}{\numberline {11}付録}{17}{section.11}%
-\contentsline {subsection}{\numberline {11.1}用語説明}{17}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}関連Webサイト}{19}{subsection.11.2}%
+\contentsline {section}{\numberline {9}その他}{17}{section.9}%
+\contentsline {section}{\numberline {10}付録}{17}{section.10}%
+\contentsline {subsection}{\numberline {10.1}用語説明}{17}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}関連Webサイト}{19}{subsection.10.2}%
