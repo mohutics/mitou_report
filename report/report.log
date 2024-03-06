@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2024.2.21)  6 MAR 2024 07:04
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2024.2.21)  6 MAR 2024 20:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -370,50 +370,85 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 79.
+(Font)              scaled to size 11.09619pt on input line 78.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 79.
+(Font)              scaled to size 11.09619pt on input line 78.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 79.
+(Font)              scaled to size 11.09619pt on input line 78.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 79.
+(Font)              scaled to size 11.09619pt on input line 78.
 File: images/previous_robots/aibo.jpg Graphic file (type bmp)
 <images/previous_robots/aibo.jpg>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 113.
+(Font)              scaled to size 8.32214pt on input line 112.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 113.
+(Font)              scaled to size 8.32214pt on input line 112.
 File: images/previous_robots/paro.png Graphic file (type bmp)
 <images/previous_robots/paro.png>
 File: images/previous_robots/lovot.png Graphic file (type bmp)
 <images/previous_robots/lovot.png>
- [1
-
-]
 File: images/previous_robots/moflin.png Graphic file (type bmp)
 <images/previous_robots/moflin.png>
 File: images/previous_robots/qoobo.png Graphic file (type bmp)
 <images/previous_robots/qoobo.png>
 File: images/previous_robots/pechat.jpg Graphic file (type bmp)
 <images/previous_robots/pechat.jpg>
+ [1
+
+]
+File: images/backgrounds/mother.jpg Graphic file (type bmp)
+<images/backgrounds/mother.jpg>
  [2]
 File: images/backgrounds/zoo.jpg Graphic file (type bmp)
 <images/backgrounds/zoo.jpg>
+ [3]
 File: images/mohutics/concept.png Graphic file (type bmp)
 <images/mohutics/concept.png>
- [3]
 File: images/mohutics/concept_dog.png Graphic file (type bmp)
 <images/mohutics/concept_dog.png>
 File: images/mohutics/concept_bear.png Graphic file (type bmp)
 <images/mohutics/concept_bear.png>
+ [4]
 File: images/dog_toy/dog.jpg Graphic file (type bmp)
 <images/dog_toy/dog.jpg>
 File: images/dog_toy/skeleton.jpg Graphic file (type bmp)
 <images/dog_toy/skeleton.jpg>
- [4]
+File: images/mohucore/rot_dog.png Graphic file (type bmp)
+<images/mohucore/rot_dog.png>
+File: images/mohucore/rot_kangaroo.png Graphic file (type bmp)
+<images/mohucore/rot_kangaroo.png>
+ [5]
+File: images/mohucore/5motors.png Graphic file (type bmp)
+<images/mohucore/5motors.png>
+File: images/mohucore/rot_arrangement.png Graphic file (type bmp)
+<images/mohucore/rot_arrangement.png>
+File: images/prototype/prototype_01.png Graphic file (type bmp)
+<images/prototype/prototype_01.png>
+File: images/prototype/prototype_01_circuit.jpg Graphic file (type bmp)
+<images/prototype/prototype_01_circuit.jpg>
+ [6]
+File: images/prototype/prototype_02.jpg Graphic file (type bmp)
+<images/prototype/prototype_02.jpg>
+File: images/mohucore/part_k.png Graphic file (type bmp)
+<images/mohucore/part_k.png>
+File: images/mohucore/part_l.png Graphic file (type bmp)
+<images/mohucore/part_l.png>
+File: images/mohucore/part_m.png Graphic file (type bmp)
+<images/mohucore/part_m.png>
 File: images/mohucore/skeleton.jpg Graphic file (type bmp)
 <images/mohucore/skeleton.jpg>
- [5]
+ [7]
+File: images/mohucore/touch_sensor.png Graphic file (type bmp)
+<images/mohucore/touch_sensor.png>
+File: images/mohucore/sensor_board.jpg Graphic file (type bmp)
+<images/mohucore/sensor_board.jpg>
+ [8]
+File: images/mohukawa/blender_01.png Graphic file (type bmp)
+<images/mohukawa/blender_01.png>
+File: images/mohukawa/dog_sensor.png Graphic file (type bmp)
+<images/mohukawa/dog_sensor.png>
+File: images/mohukawa/uv.png Graphic file (type bmp)
+<images/mohukawa/uv.png>
 File: images/mohukawa/saw_01.jpg Graphic file (type bmp)
 <images/mohukawa/saw_01.jpg>
 File: images/mohukawa/saw_02.jpg Graphic file (type bmp)
@@ -426,25 +461,64 @@ File: images/mohukawa/joint_01.jpg Graphic file (type bmp)
 <images/mohukawa/joint_01.jpg>
 File: images/mohukawa/joint_02.jpg Graphic file (type bmp)
 <images/mohukawa/joint_02.jpg>
- [6]
-File: images/prototype/prototype_04.jpg Graphic file (type bmp)
-<images/prototype/prototype_04.jpg>
- [7] [8] [9] (./report.bbl) [10] (./report.aux)
+File: images/mohukawa/dog_parts.png Graphic file (type bmp)
+<images/mohukawa/dog_parts.png>
+File: images/mohukawa/dog.jpg Graphic file (type bmp)
+<images/mohukawa/dog.jpg>
+File: images/mohukawa/anago_making.png Graphic file (type bmp)
+<images/mohukawa/anago_making.png>
+File: images/mohukawa/funio.jpg Graphic file (type bmp)
+<images/mohukawa/funio.jpg>
+File: images/mohukawa/anago.jpg Graphic file (type bmp)
+<images/mohukawa/anago.jpg>
+File: images/mohukawa/panda.jpg Graphic file (type bmp)
+<images/mohukawa/panda.jpg>
+ [9]
+File: images/mohutics/embed_dog_head.png Graphic file (type bmp)
+<images/mohutics/embed_dog_head.png>
+File: images/mohutics/embed_dog_body.png Graphic file (type bmp)
+<images/mohutics/embed_dog_body.png>
+File: images/mohutics/embed_funio.png Graphic file (type bmp)
+<images/mohutics/embed_funio.png>
+ [10] [11]
+File: images/mohutics/i2c_wave.png Graphic file (type bmp)
+<images/mohutics/i2c_wave.png>
+File: images/mohutics/dog.png Graphic file (type bmp)
+<images/mohutics/dog.png>
+File: images/mohutics/funio.png Graphic file (type bmp)
+<images/mohutics/funio.png>
+File: images/mohutics/anago.png Graphic file (type bmp)
+<images/mohutics/anago.png>
+File: images/mohutics/panda.png Graphic file (type bmp)
+<images/mohutics/panda.png>
+ [12]
+File: images/mohutics/learning.png Graphic file (type bmp)
+<images/mohutics/learning.png>
+File: images/mohutics/dog_interaction_01.png Graphic file (type bmp)
+<images/mohutics/dog_interaction_01.png>
+File: images/mohutics/funio_interaction_01.png Graphic file (type bmp)
+<images/mohutics/funio_interaction_01.png>
+ [13]
+File: images/prototype/prototype_04_01.jpg Graphic file (type bmp)
+<images/prototype/prototype_04_01.jpg>
+File: images/prototype/prototype_04_02.jpg Graphic file (type bmp)
+<images/prototype/prototype_04_02.jpg>
+ [14] [15] [16] [17] [18] (./report.bbl) [19] (./report.aux)
  ***********
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-18>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 2DB50E2FF17FEA0A96D9DF13AE9C5111;2994.
+(rerunfilecheck)             Checksum: 12C21D1E675C14634AAC3863140CDD1E;3558.
  ) 
 Here is how much of TeX's memory you used:
- 11285 strings out of 474801
- 181862 string characters out of 5763005
- 1929839 words of memory out of 5000000
- 33484 multiletter control sequences out of 15000+600000
+ 11515 strings out of 474801
+ 189293 string characters out of 5763005
+ 1928839 words of memory out of 5000000
+ 33685 multiletter control sequences out of 15000+600000
  597123 words of font info for 85 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 72i,8n,79p,478b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,8n,79p,950b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.dvi (12 pages, 69124 bytes).
+Output written on report.dvi (21 pages, 113572 bytes).
