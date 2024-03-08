@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2024.2.21)  8 MAR 2024 12:17
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2024.2.21)  8 MAR 2024 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,13 +430,11 @@ File: images/mohutics/embed_funio.png Graphic file (type bmp)
  [2] [3]
 File: images/mohutics/dog_interaction_01.png Graphic file (type bmp)
 <images/mohutics/dog_interaction_01.png>
-File: images/mohutics/funio_interaction_01.png Graphic file (type bmp)
-<images/mohutics/funio_interaction_01.png>
  [4]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 323.
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 329.
  (c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [5] [6] 
+) [5] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./detail.aux)
  ***********
@@ -448,12 +446,12 @@ Package rerunfilecheck Info: File `detail.out' has not changed.
 (rerunfilecheck)             Checksum: 83C5DCFB11EF06AA7DDB3997390347C0;1351.
  ) 
 Here is how much of TeX's memory you used:
- 11583 strings out of 474801
- 187490 string characters out of 5763005
+ 11577 strings out of 474801
+ 187228 string characters out of 5763005
  1929839 words of memory out of 5000000
- 33771 multiletter control sequences out of 15000+600000
+ 33766 multiletter control sequences out of 15000+600000
  596615 words of font info for 80 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 72i,11n,79p,490b,713s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,79p,490b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on detail.dvi (6 pages, 27040 bytes).
+Output written on detail.dvi (5 pages, 26400 bytes).
