@@ -65,6 +65,7 @@
 
 \makeatletter
 \renewcommand{\section}{\@startsection{section}{1}{\z@}{1.5\Cvs \@plus.5\Cvs \@minus.2\Cvs}{.5\Cvs \@plus.3\Cvs}{\reset@font\bfseries\gtfamily\sffamily}}
+\renewcommand{\subsection}{\@startsection{subsection}{1}{\z@}{1.5\Cvs \@plus.5\Cvs \@minus.2\Cvs}{.5\Cvs \@plus.3\Cvs}{\reset@font\bfseries\gtfamily\sffamily}}
 \makeatother
 \captionsetup[figure]{font=sf}
 \pagestyle{foot}
@@ -256,8 +257,8 @@
 ハードウェアに近い部分のプログラムとしては姿勢センサ等のライブラリの実装や感圧センサで使用したPICマイコンのソースコードなどを含む。
 さらに、ロボットの機能としては、ユーザがロボットに触れたときに、その外力に抗うように動いて応答する機能などを盛り込んでいる。
 
-また、ぬいぐるみロボットを外部のパソコンと接続することで、ぬいぐるみロボットに対する人のインタラクション傾向の分析も行った（\figref{fig:mohutics:interaction}）。
-この分析では、ぬいぐるみロボットに埋め込まれたセンサの情報をパソコンに送信し、人がぬいぐるみロボットに対してどのようなインタラクションを行うのか測定した。
+また、ぬいぐるみロボットを外部のPCと接続することで、ぬいぐるみロボットに対する人のインタラクション傾向の分析も行った（\figref{fig:mohutics:interaction}）。
+この分析では、ぬいぐるみロボットに埋め込まれたセンサの情報をPCに送信し、人がぬいぐるみロボットに対してどのようなインタラクションを行うのか測定した。
 結果としてはぬいぐるみの種類ごとに形状や容姿から持ち方や触り方などの傾向に差が生まれ、PyTorchによる深層学習と組み合わせることで、センサの値のみからユーザが用意されたぬいぐるみのうちどの種類のぬいぐるみを抱いているかを分類できるようになった。
 本検証は試験的なものであるが、今後改良を加えることで、ぬいぐるみロボットが抱き方の傾向から持ち主のみに特定の応答を示すなどの機能が実装できると期待される。
 
@@ -326,7 +327,7 @@
 
 \section{クリエータ名（所属）}
 \begin{itemize}
-  \item 小山　高（東京大学　大学院情報理工学系研究科）
+  \item 小山 高（東京大学 大学院情報理工学系研究科）
 \end{itemize}
 
 \section*{（参考）関連URL} % もしあれば
